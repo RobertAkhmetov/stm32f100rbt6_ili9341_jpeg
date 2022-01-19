@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="6.2.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=jpeg-test.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\jpeg-test -TC:\CooCox\CoIDE\configuration\ProgramData\jpeg-test/link.ld -g">
+      <target file="jpeg-test.elf" lastModified="17e71563a7b">
+         <source file="..\obj\core_cm3.o" lastModified="17e71562d88"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="17e71562dfd"/>
+         <source file="..\obj\startup_stm32f10x_hd.o" lastModified="17e71562e41"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="17e71562f87"/>
+         <source file="..\obj\main.o" lastModified="17e71563206"/>
+         <source file="..\obj\picojpeg.o" lastModified="17e715634b3"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="17e7156354c"/>
+         <source file="..\obj\syscalls.o" lastModified="17e715635b1"/>
+         <source file="..\obj\ili9341.o" lastModified="17e7156366a"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="17e715636ed"/>
+      </target>
+   </processor>
+</history>

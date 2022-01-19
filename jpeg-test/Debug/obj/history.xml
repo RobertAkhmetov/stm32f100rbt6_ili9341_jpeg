@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DSTM32F100RB -DSTM32F10X_MD_VL -I..\..\..\..\..\Users\leade\Downloads\jpeg-test_stm32f1\jpeg-test\stm_lib\inc -I..\..\..\..\..\Users\leade\Downloads\jpeg-test_stm32f1\jpeg-test -I..\..\..\..\..\Users\leade\Downloads\jpeg-test_stm32f1\jpeg-test\stm_lib -I..\..\..\..\..\Users\leade\Downloads\jpeg-test_stm32f1\jpeg-test\cmsis_boot -I..\..\..\..\..\Users\leade\Downloads\jpeg-test_stm32f1\jpeg-test\cmsis -I..\..\..\..\..\Users\leade\Downloads\jpeg-test_stm32f1 -I..\..\..\..\..\Users\leade\Downloads">
+      <target file="syscalls.o" lastModified="17e715635b1">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="143826fb1ba"/>
+      </target>
+      <target file="ili9341.o" lastModified="17e7156366a">
+         <source file="..\..\..\ili9341.c" lastModified="14382d6d80a"/>
+      </target>
+      <target file="startup_stm32f10x_hd.o" lastModified="17e71562e41">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="143826fbbbd"/>
+      </target>
+      <target file="core_cm3.o" lastModified="17e71562d88">
+         <source file="..\..\..\cmsis\core_cm3.c" lastModified="17e712daee7"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="17e71562dfd">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="143826fbbf5"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="17e715636ed">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="143826ff3c7"/>
+      </target>
+      <target file="main.o" lastModified="17e71563206">
+         <source file="..\..\..\main.c" lastModified="17e715613c6"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="17e71562f87">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="143826fed8d"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="17e7156354c">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="143826fbb9c"/>
+      </target>
+      <target file="picojpeg.o" lastModified="17e715634b3">
+         <source file="..\..\..\picojpeg.c" lastModified="1438277e549"/>
+      </target>
+   </processor>
+</history>
